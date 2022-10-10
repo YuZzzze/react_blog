@@ -1,0 +1,34 @@
+.header-container{
+    background-color: #fff;
+    overflow: hidden;
+    padding: .2rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-logo{
+    font-size: 2rem;
+    color: #1e90ff;
+    font-weight: bold;
+    text-align: left;
+}
+.header-right span{
+    padding: 0 .3rem;
+}
+
+.header-text{
+    display: inline-block;
+    font-size: .8rem;
+    color: #999;
+    padding-left: .7rem;
+}
+
+.login_container{
+    padding-bottom: .3rem;
+}
+
+.login_botton{
+    border-radius: 15px !important;
+    margin-bottom: .2rem !important;
+}
+

@@ -1,0 +1,8 @@
+.login-form{
+    padding: 2rem 3rem !important;
+    border-radius: 10px;
+    background-color: #fff !important;
+}
+.login-form-button{
+    width: 12rem !important;
+}
