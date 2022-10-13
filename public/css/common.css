@@ -44,3 +44,7 @@ body{
     display: inline-block;
     padding: 0 10px;
 }
+
+.btn{
+    border-radius: 15px !important;
+}

@@ -27,10 +27,6 @@
     padding-bottom: .3rem;
 }
 
-.login_botton{
-    border-radius: 15px !important;
-    margin-bottom: .2rem !important;
-}
 
 @media screen and (max-width:580px){
     .login_container{
