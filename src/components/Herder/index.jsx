@@ -22,10 +22,10 @@ const Header = () => {
                             <HomeFilled/>
                             <Link to='/home'><span>首页</span></Link>
                         </Menu.Item>    
-                        <Menu.Item key="video">
+                        {/* <Menu.Item key="video">
                             <MenuOutlined/>
                             <Link to='/mylist'><span>我的</span></Link>
-                        </Menu.Item>    
+                        </Menu.Item>     */}
                     </Menu>    
                 </Col>
                 <Col xs={6} sm={4} md={3} lg={3} xl={2} className="login_container">

@@ -4,13 +4,15 @@
  import axios from "axios";
  
  axios.defaults.timeout = 10000;
-//  axios.defaults.baseURL = "http://127.0.0.1:7001/default/";
- axios.defaults.baseURL = "http://159.75.203.5:7001/default/";
+
+//  环境
+ axios.defaults.baseURL = "http://127.0.0.1:7001/default/";
+//  axios.defaults.baseURL = "http://159.75.203.5:7001/default/";
   
  /**
   * http request 拦截器
   */
- axios.interceptors.request.use(
+ axios.interceptors.request.use( 
    (config) => {
      config.data = JSON.stringify(config.data);
      config.headers = {
